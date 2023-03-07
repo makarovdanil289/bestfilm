@@ -15,9 +15,7 @@
         echo $row['name']." ".$row['year']."<br>";
     }
 
-    // $query= "INSERT INTO movie VALUES(null,  'Безумный Макс', 'Описание фильма безумный макс', '2015', Now())";
-    // $mysqli->query($query);
-
     $mysqli->close();
+
 
 ?>
